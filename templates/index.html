@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<div id="menu">
+    <form action="/play" method="POST">
+        <button class="btn" id="play" type="submit">PLAY</button>
+    </form>
+    <button class="btn" id="scenes" disabled>SCENES</button>
+    <button class="btn" id="gallery" disabled>GALLERY</button>
+</div>
+{% endblock %}
+{% block js %}
+<script>
+    var bg;
+
+    function setup() {
+        createCanvas(window.innerWidth,window.innerHeight);
+        bg = loadImage("static/img/kitty.jpg");
+    }
+
+    function draw() {
+        image(bg,0,0,window.innerWidth,window.innerHeight);
+    }
+</script>
+{% endblock %}

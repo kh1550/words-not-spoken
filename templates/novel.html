@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block content %}
+<div id="buffer">
+    <div id="friends" style="display:none;">
+        <div id="exit">X</div>
+        <p>Friends:</p>
+        <ul id="list">
+        </ul>
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td><div id="spkr">{{spkr}}</div></td>
+                <td>{{chara|safe}}</td>
+                <td><div id="progress">Progress</div></td>
+            </tr>
+            <tr>
+                <td colspan="3"><div id="text">{{line}}</div></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form method='post' action='' id='next'>
+        <input type='hidden' value='whatever'>
+    </form>
+</div>
+{% endblock %}
+{% block js %}
+<script type='text/javascript'>
+    var bg;
+
+    function setup() {
+        createCanvas(window.innerWidth,window.innerHeight);
+        if (!{{color}}) { bg = loadImage("{{path}}"); }
+    }
+
+    function draw() {
+        if (!{{color}}) { image(bg,0,0,window.innerWidth,window.innerHeight); }
+        else { background("{{path}}"); }
+    }
+</script>
+<script type='text/javascript'>
+    function next(){
+        form = document.getElementById('next');
+        if (form){ form.submit(); }
+    }
+    document.getElementById("text").addEventListener('click',next);
+ </script>
+<script src="static/js/progress.js"></script>
+{% endblock %}

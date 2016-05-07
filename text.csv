@@ -1,0 +1,20 @@
+ACT,SCENE,SPEAKER,LINE,SHOW,CHOICE,TAG,BG
+1,1,NARR,"Welcome to [ Words Not Spoken ]. Your objective is to make as many friends as you can by the end of your senior year.",None,None,None,static/img/nyu.png
+1,1,NARR,"For as long as you can remember, you have only wanted to make friends. Between moving between 3 countries and attending 11 schools, you never seemed to make a lasting friendship.",None,None,None,static/img/nyu.png
+1,1,NARR,"But that is about change. It is your freshman year of college. You know nobody here but you are optimistic. For the first time, you can meet people who share your love of video games and anime.",None,None,None,static/img/nyu.png
+1,1,NARR,"While you yearn for friendship, make sure to always keep your happiness meter up. You will have to make tough choices, but friendship is your ultimate happiness.",None,None,None,static/img/nyu.png
+1,1,NARR,"Good luck!",None,None,None,static/img/nyu.png
+1,2,NARR,"NOVEMBER 1, 2012",None,None,None,black
+1,2,NARR,"After several months, you haven't had any luck. Today the Anime Club has a Halloween costume event. You are standing outside the door in your Final Fantasy XIII Lightning cosplay with the gunblade you've made by hand.",None,None,None,static/img/nyu.png
+1,2,NARR,"Your throat feels like closing. Everybody is already inside. It feels rude to interrupt. But you've had zero luck making friends so far.",None,None,None,static/img/nyu.png
+1,2,NARR,"Do you go in?",False,[YES,NO],CRIT,static/img/nyu.png
+1,2,NARR,"Everybody looked at you when you walk in. You hurriedly sit until the costume contest begins. There aren't a lot of people in costumes, and the only other costume that is a serious entrant is a cute girl dressed as Homura from Mahou Shoujo Madoka Magica",MONICA,None,None,static/img/nyu.png
+1,2,NARR,"It's a bit pompous to vote for yourself. Though no one will know who you voted for, you cast your vote for Homura.",MONICA,None,None,static/img/nyu.png
+MA,MS,NARR,"It is your senior year. You're about to take a class that is exactly in your line of interests.",None,None,None,static/img/nyu.png
+MA,MS,NARR,"You see MeiXin. She's in your class sitting with other classmates you know. You sit with them, but that puts you near her. You consider leaving the class.",MEIYOU,None,None,static/img/nyu.png
+MA,MS,JOE,"Hello everybody! Welcome to Applied Internet Tech! My name is Joe Versoza.",JOE,None,None,static/img/classroom.png
+MA,MS,NARR,"As Professor Versoza continues the lecture, it's evident you will enjoy this class. You don't want to sit away from people you know either.",None,None,None,static/img/classroom.png
+MA,MS,NARR,"You will inevitably have to talk to MeiXin again. You remember how it felt to be thrown away. But it's also been several months since then.",None,None,None,static/img/classroom.png
+MA,MS,NARR,"Remember, your objective is to make as many friends as you can by the end of your senior year.",None,None,None,static/img/classroom.png
+MA,MS,NARR,"Do you give her a second chance?",None,[YES,NO],CRIT,static/img/classroom.png
+LA,LS,NARR,"Did you forget about your happiness meter?",None,None,BAD1,black
