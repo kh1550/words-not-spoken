@@ -40,6 +40,7 @@ class Scene:
         self.scene = data[1]
         self.speaker = data[2]
         self.line = data[3]
+        print(self.line)
         self.show = self.findImage(chars,data[4])
         self.choice.extend(data[5])
         self.tag = data[6]
@@ -52,7 +53,7 @@ class Scene:
                 return c
 
     def findImage(self,chars,spkr):
-        if (spkr == None):
+        if (spkr == None or spkr == "YOU"):
             return None
         for c in chars:
             if c.label() == spkr:

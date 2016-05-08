@@ -160,3 +160,10 @@ ul {
 
     margin-top: -25%;
 }
+
+#title {
+    font-family: "Anime Ace";
+    z-index: 2;
+    position: relative;
+    margin-left: 60%;
+}

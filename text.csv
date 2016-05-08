@@ -1,20 +1,62 @@
 ACT,SCENE,SPEAKER,LINE,SHOW,CHOICE,TAG,BG
-1,1,NARR,"Welcome to [ Words Not Spoken ]. Your objective is to make as many friends as you can by the end of your senior year.",None,None,None,static/img/nyu.png
+1,1,NARR,"Welcome to [ Words Not Spoken ]. Your only wish is to be happy as you embark on your voyage through college. Thus, you may want to make as many friends as you can by the end of your senior year.",None,None,None,static/img/nyu.png
 1,1,NARR,"For as long as you can remember, you have only wanted to make friends. Between moving between 3 countries and attending 11 schools, you never seemed to make a lasting friendship.",None,None,None,static/img/nyu.png
 1,1,NARR,"But that is about change. It is your freshman year of college. You know nobody here but you are optimistic. For the first time, you can meet people who share your love of video games and anime.",None,None,None,static/img/nyu.png
-1,1,NARR,"While you yearn for friendship, make sure to always keep your happiness meter up. You will have to make tough choices, but friendship is your ultimate happiness.",None,None,None,static/img/nyu.png
+1,1,NARR,"You will have to make tough choices, but friendship can be your ultimate happiness.",None,None,None,static/img/nyu.png
 1,1,NARR,"Good luck!",None,None,None,static/img/nyu.png
-1,2,NARR,"NOVEMBER 1, 2012",None,None,None,black
-1,2,NARR,"After several months, you haven't had any luck. Today the Anime Club has a Halloween costume event. You are standing outside the door in your Final Fantasy XIII Lightning cosplay with the gunblade you've made by hand.",None,None,None,static/img/nyu.png
-1,2,NARR,"Your throat feels like closing. Everybody is already inside. It feels rude to interrupt. But you've had zero luck making friends so far.",None,None,None,static/img/nyu.png
-1,2,NARR,"Do you go in?",False,[YES,NO],CRIT,static/img/nyu.png
-1,2,NARR,"Everybody looked at you when you walk in. You hurriedly sit until the costume contest begins. There aren't a lot of people in costumes, and the only other costume that is a serious entrant is a cute girl dressed as Homura from Mahou Shoujo Madoka Magica",MONICA,None,None,static/img/nyu.png
-1,2,NARR,"It's a bit pompous to vote for yourself. Though no one will know who you voted for, you cast your vote for Homura.",MONICA,None,None,static/img/nyu.png
-MA,MS,NARR,"It is your senior year. You're about to take a class that is exactly in your line of interests.",None,None,None,static/img/nyu.png
-MA,MS,NARR,"You see MeiXin. She's in your class sitting with other classmates you know. You sit with them, but that puts you near her. You consider leaving the class.",MEIYOU,None,None,static/img/nyu.png
-MA,MS,JOE,"Hello everybody! Welcome to Applied Internet Tech! My name is Joe Versoza.",JOE,None,None,static/img/classroom.png
-MA,MS,NARR,"As Professor Versoza continues the lecture, it's evident you will enjoy this class. You don't want to sit away from people you know either.",None,None,None,static/img/classroom.png
-MA,MS,NARR,"You will inevitably have to talk to MeiXin again. You remember how it felt to be thrown away. But it's also been several months since then.",None,None,None,static/img/classroom.png
-MA,MS,NARR,"Remember, your objective is to make as many friends as you can by the end of your senior year.",None,None,None,static/img/classroom.png
-MA,MS,NARR,"Do you give her a second chance?",None,[YES,NO],CRIT,static/img/classroom.png
-LA,LS,NARR,"Did you forget about your happiness meter?",None,None,BAD1,black
+3,1,NARR,"SEPTEMBER 3, 2015",None,None,None,black
+3,1,NARR,"It is your senior year. You're about to take a class that is exactly in your line of interests.",None,None,None,static/img/nyu.png
+3,1,NARR,"You see MeiXin. She's in your class sitting with other classmates you know. You sit with them, but that puts you near her. You consider leaving the class.",MEIYOU,None,None,static/img/classroom.png
+3,1,JOE,"Hello everybody! Welcome to Applied Internet Tech! My name is Joe Versoza.",JOE,None,None,static/img/classroom.png
+3,1,NARR,"As Professor Versoza continues the lecture, it's evident you will enjoy this class. You don't want to sit away from people you know either.",None,None,None,static/img/classroom.png
+3,1,NARR,"You will inevitably have to talk to MeiXin again.",MEIYOU,None,None,static/img/classroom.png
+3,1,NARR,"Remember that she made you do the bulk of your iOS project last year. Remember that you wrote the entire play for Japanese project because she was too 'busy'. Remember that when you asked her to stop taking Adderall so she could spend less time on homework, she laughed at your sincere concern.",MEIYOU,None,None,static/img/classroom.png
+3,1,NARR,"Remember that she stopped playing League with you because her boyfriend didn't like League. Remember that she stopped taking the bus with you back to your dorm with no word.",MEIYOU,None,None,static/img/classroom.png
+3,1,NARR,"But also remember that it has been several months since then. And remember, you want to make as many friends as you can by the end of your senior year.",None,None,None,static/img/classroom.png
+3,1,NARR,"Do you give her a second chance?",None,[YES,NO],CRIT,static/img/classroom.png
+3,2,NARR,"You decide to give her a second chance. Of course, you're cautious about it and refrain from speaking to her too much.",MEIYOU,None,None,static/img/classroom.png
+3,2,NARR,"But with the inevitably of seeing her everyday in multiple classes, you eventually warm back up to her.",JOE,None,None,static/img/classroom.png
+3,2,NARR,"By October, you have opened up about your life in the several months since she unceremoniously tossed you out. You and her eat together almost every day.",MEIYOU,None,None,static/img/ippudo.png
+3,2,NARR,"But outside of class and lunch, she usually only messages you to ask for homework help. Sometimes she also complains about her boyfriend. You think he's the most manipulative person and hearing about her complaints drives you up the wall. But you want to be a good friend so you listen and give her the best advice you can offer.",MEIYOU,None,None,static/img/home.png
+3,3,NARR,"The semester went well. You even had KBBQ and karaoke with MeiXin and your friends Curtis and Noah. You had a few rough patches; though you and MeiXin were partners for Principles of Programming Languages, you ended up doing most of the work each week. Even when you were sick with a 102 F fever, and she said that she would do the heavy lifting for the assignment due that day, you ended up writing the whole assignment by yourself for the two of you. Worse, the final assignment was due on the opening night of the new Star Wars film. She never liked Star Wars until she met her boyfriend because he liked the series. She decided that she would submit the homework late which meant you had to do it all by yourself. You couldn't finish and handed it in incomplete. She asked someone else for help and handed it in the next day.",MEIYOU,None,None,static/img/home.png
+3,3,NARR,"You walk in to take your Applied Internet Tech Final Exam. You weren't able to sleep as your commute is 2 hours one way and you have 2 exams today. You've studied really hard for your AIT exam and are running on adrenaline alone.",None,None,None,static/img/classroom.png
+3,3,NARR,"MeiXin is sitting with her head down. She looks tired.",MEIYOU,None,None,static/img/classroom.png
+3,3,NARR,"You ask her why was she so tired. Had she actually been studying?",MEIYOU,None,None,static/img/classroom.png
+3,3,MEIYOU,"Yeah just a bit. I don't even care about this test anymore. I only got 5 hours of sleep last night.",MEIYOU,None,None,static/img/classroom.png
+3,3,NARR,"You try not to scream. She only took 3 classes this semester, and you had gotten no sleep because you were taking 4 and you live 2 hours away. It was pitch black when you had left your house that morning.",MEIYOU,None,None,static/img/classroom.png
+3,3,NARR,"But instead you decide not to say anything. It seems you do that quite often. The test is over.",None,None,None,static/img/classroom.png
+3,3,JOE,"Have a good winter break!",JOE,None,None,static/img/classroom.png
+4,1,NARR,"JANUARY 21, 2016",None,None,None,black
+4,1,NARR,"Your winter break went by without much contact with anyone. You invited MeiXin to visit a cat cafe during break but she never followed through. Towards the end of break, you had to come to campus to do paperwork for your grading job. You were also dealing with some personal problems. So you ask her to meet for your usual Ippudo lunch.",None,None,None,static/img/home.png
+4,1,YOU,"MEIXIIIIIN! I gotta go to campus tmrw. do you wanna eat ihop or ippudo?",None,None,None,static/img/home.png
+4,1,MEIYOU,"Omg sure lets go to ippudo",MEIYOU,None,None,static/img/home.png
+4,1,NARR,"You're relieved she agreed to go. You really need someone to talk to. But just to make sure, you remind her the night before.",None,None,None,static/img/home.png
+4,1,YOU,"don't forget 12:45 tomorrow!!",None,None,None,static/img/home.png
+4,1,MEIYOU,"ok! Can KC come too?",MEIYOU,None,None,static/img/home.png
+4,1,NARR,"Her boyfriend was about the last person you wanted to hear about your personal troubles. He was about the last person you wanted to see too.",None,None,None,static/img/home.png
+4,1,YOU,"uhh. I wanted to talk about girl stuff though :c do you mind?",MEIYOU,None,None,static/img/home.png
+4,1,MEIYOU,"aww hmm he's staying with me tonight so its weird to leave him behind ; _ ;",MEIYOU,None,None,static/img/home.png
+4,1,NARR,"Honestly you're quite shocked. She would rather not help you out than be 'weird' by leaving him for one lunch?",MEIYOU,None,None,static/img/home.png
+4,1,YOU,"We can talk about it another time I guess?",MEIYOU,None,None,static/img/home.png
+4,2,NARR,"JANUARY 25, 2016",None,None,None,black
+4,2,NARR,"Although you never ended up getting to hang out over winter break, you're hopeful that maybe this semester will turn out just fine. You go to your first class.",None,None,None,static/img/classroom.png
+4,2,NARR,"Your heart sinks when MeiXin walks in with KC. He's taking this class too.",None,None,None,static/img/classroom.png
+4,2,NARR,"At the beginning of the semester, you just sit on the opposite of MeiXin and try to ignore he's there. You make small talk if you have to. You might as well, since you and MeiXin have the same exact four classes this semester.",MEIYOU,None,None,static/img/classroom.png
+4,2,NARR,"But the semester doesn't go very smoothly. To start, she makes you eat with KC everyday. Not only that, she makes you wait another 2 hours to eat so that you can eat with him.",MEIYOU,None,None,static/img/nyu.png
+4,2,NARR,"But it only gets worse. One of those days you're waiting for him, you and MeiXin are doing homework for a 400 level class. KC has only taken Intro to Computer Programming. Both you and MeiXin are in your fourth year of computer science. While you and MeiXin disagree on an answer to your homework, you both disagree to KC's answer. But he won't stop. He continues to argue and push that his answer is right even as you are walking to grab food. He doesn't respect MeiXin's or your expertise despite your four years of study.",MEIYOU,None,None,static/img/nyu.png
+4,2,NARR,"It comes to a point where you can't stand having to be around him. No matter what you or MeiXin says, he disagrees and refuses to agree to disagree. Worse yet, he throws shade at MeiXin in front of you thinking you have no idea how he bullies her for not wanting to work on his startup idea. You refuse to eat with them anymore, even though you will be eating alone for the first time in 7 months.",MEIYOU,None,None,static/img/nyu.png
+4,2,NARR,"You think MeiXin would still eat with you every so often.",None,None,None,static/img/nyu.png
+4,2,NARR,"But she doesn't.",None,None,None,black
+4,2,NARR,"Knowing you eat alone every day, she leaves you. Eventually she doesn't even walk out of class with you or say bye to you.",None,None,None,black
+4,3,NARR,"MARCH 21, 2016",None,None,None,black
+4,3,NARR,"You only see MeiXin in class now. To your surprise, you get a message from her.",None,None,None,static/img/home.png
+4,3,MEIYOU,"hiii ; __ ; do u think ull be done with the graphics hw by 11 tomorrow? I cant do it all in one night :'(",MEIYOU,None,None,static/img/home.png
+4,3,NARR,"You scroll up your message history and realize a pattern. She only messages you for career help or homework help.",None,None,None,static/img/home.png
+4,3,NARR,"Then you think about it.",None,None,None,static/img/home.png
+4,3,NARR,"Has this not always been the case?",None,None,None,black
+4,3,NARR,"Then you realize. You have the same 4 classes as her. You have the same exact workload. Except you have a job, she does not. Except you live 2 hours away, she lives 15 minutes away. If you have time to do your job, do homework, and commute 4 hours a day, for what reason should she need to ask for your homework when she has the same workload?",None,None,None,static/img/home.png
+4,3,NARR,"At the same time, she doesn't hang out with you. She doesn't hear your troubles. She only messages you when she needs help but not once has she ever helped you.",MEIYOU,None,None,static/img/home.png
+4,3,NARR,"But you wanted to make as many friends as you could, didn't you? Wasn't that your goal?",MEIYOU,None,None,static/img/home.png
+4,3,NARR,"No.",None,None,None,black
+4,3,NARR,"You just wanted to be happy.",None,None,BAD,black
+4,3,NARR,"END.",None,None,BAD,black

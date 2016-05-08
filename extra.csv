@@ -1,0 +1,7 @@
+1,2,NARR,"NOVEMBER 1, 2012",None,None,None,black
+1,2,NARR,"After several months, you haven't had any luck. Today the Anime Club has a Halloween costume event. You are standing outside the door in your Final Fantasy XIII Lightning cosplay with the gunblade you've made by hand.",None,None,None,static/img/nyu.png
+1,2,NARR,"Your throat feels like closing. Everybody is already inside. It feels rude to interrupt. But you've had zero luck making friends so far.",None,None,None,static/img/nyu.png
+1,2,NARR,"Do you go in?",False,[YES,NO],CRIT,static/img/nyu.png
+1,2,NARR,"Everybody looked at you when you walk in. You hurriedly sit until the costume contest begins. There aren't a lot of people in costumes, and the only other costume that is a serious entrant is a cute girl dressed as Homura from Mahou Shoujo Madoka Magica",MONICA,None,None,static/img/nyu.png
+1,2,NARR,"It's a bit pompous to vote for yourself. Though no one will know who you voted for, you cast your vote for Homura.",MONICA,None,None,static/img/nyu.png
+5,1,NARR,"Did you forget about your happiness?",None,None,BAD,black
