@@ -16,3 +16,10 @@
 * setuptools 18.1
 * csv
 * Python 3.5.0
+
+
+### Notes
+* The game's story isn't presented from the beginning, so there are parts missing. I've tried to add some backstory.
+* Currently, there are no choices available. I wasn't able to flesh out all the choices there maybe could have had.
+* Just click the textbox area or refresh to progress the story.
+* I wasn't able to ensure that the window would display correctly on all platforms, so fingers crossed! might be a bit wonky.
